@@ -1,0 +1,195 @@
+/*BOOK A RIDE PAGE STYLING*/
+.book-a-ride-form {
+    width: 300px;
+    box-shadow:papayawhip ;
+    background: white;
+    padding: 20px;
+    margin: 8% auto;
+    text-align: center;
+    background-color: white;
+}
+
+.book-a-ride-form h3 {
+    color: #1c8adb;
+    margin-bottom: 30px;
+} 
+.input-box {
+    border-radius: 20px;
+    padding: 10px; 
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999999;
+    outline: none;
+    background-color: papayawhip;
+}
+.book-btn {
+    background-color: paleturquoise;
+}
+
+a {
+    text-decoration:none ;
+}
+
+#dog {
+    background-color: white;
+}
+
+
+
+h1 {
+    color: #1c8adb;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 30px;
+}
+nav a {
+    font-style: normal;
+    font-family: sans-serif;
+    color: #1c8adb;
+}
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+
+
+/*FOR MAKING THE Nav be horizontal */
+nav li {
+    display: inline-block;
+}
+.land_page_img{
+    height: 30%;
+    margin-top: 0px;
+    width: 100%;
+}
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+
+}
+#head {
+    background-color: papayawhip;
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%
+}
+#girl {
+    background-color: whitesmoke;
+}
+footer {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    clear: both;
+}
+footer li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+     background-color:papayawhip;
+     color: black;
+     list-style: none;
+     margin-left: 0;
+}
+
+footer li a p {
+    margin: 0;
+    padding: 5;
+    font-size: 0.95em;
+    color: black
+}
+
+#give {
+    list-style: none;
+}
+
+#copy {
+    text-align: center;
+    clear: both;
+}
+
+
+h4 {
+    text-align: center;
+}
+
+
+/*GALLERY STYLING*/
+#gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 0%;
+     background-color:snow;
+     color: black;
+     border: 0px;
+}
+
+
+#line {
+    color: black;
+}
+
+hr {
+    background-color: black;
+    color: black;
+}
+
+#details {
+    text-align: center;
+}
+
+#rider {
+    margin: 0 auto;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    border: solid 6px papayawhip;
+    
+}
+
+#rider p {
+    width: 90%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

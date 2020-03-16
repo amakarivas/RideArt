@@ -1,0 +1,31 @@
+@media screen and (min-width: 480px) {
+    body {
+        background-color: white;
+        
+    }
+}
+
+
+/*TWO COLUMN LAYOUT*/
+@media screen and (min-width: 480px) {
+    #primary {
+        width: 50%;
+        float: left;
+    }
+
+    #secondary {
+        width: 40%;
+        float: right;
+    }
+
+#copy {
+    text-align: center;
+}
+
+
+
+
+@media screen and (min-width: 480px) {
+    .book-a-ride-form {
+        background: white;
+    }
