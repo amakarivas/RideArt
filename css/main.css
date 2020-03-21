@@ -1,3 +1,7 @@
+html, body{
+  height: 100%;
+  overflow: scroll;
+}
 .all-body {
   overflow-y : auto;
 }
@@ -77,3 +81,6 @@
     transform: rotate(360deg);
   }
 }
+
+/* Cursor pointer */
+.pointer{ cursor: pointer;}

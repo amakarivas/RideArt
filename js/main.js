@@ -144,9 +144,13 @@ window.addEventListener('load',async function(){
         ridesDom(ride[1].customersAddress,ride[1].location,ride[1].destination);
       });
     }
+
     $("#loader").hide();
   }).catch(function(){
-    document.getElementById("rides-dom").innerHTML = "<p class='text-danger'>Not Authorized</p>";
+    // hide admin panel
+    document.getElementById("statistics").style.display = 'none';
+    // hide statistics link
+    document.querySelector('.nav-item:last-child').style.display = 'none';
     $("#loader").hide();
   });
   
