@@ -144,6 +144,7 @@ window.addEventListener('load',async function(){
         ridesDom(ride[1].customersAddress,ride[1].location,ride[1].destination);
       });
     }
+    
     $("#loader").hide();
   }).catch(function(){
     // hide admin panel
