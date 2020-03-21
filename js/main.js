@@ -146,7 +146,8 @@ window.addEventListener('load',async function(){
     }
     $("#loader").hide();
   }).catch(function(){
-    document.getElementById("rides-dom").innerHTML = "<p class='text-danger'>Not Authorized</p>";
+    // hide admin panel
+    document.getElementById("statistics").style.display = 'none';
     $("#loader").hide();
   });
   
