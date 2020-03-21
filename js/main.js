@@ -143,6 +143,9 @@ window.addEventListener('load',async function(){
       allRides.map(ride=>{
         ridesDom(ride[1].customersAddress,ride[1].location,ride[1].destination);
       });
+    } else{
+      // hide admin panel
+      document.getElementById("statistics").style.display = 'none';
     }
     $("#loader").hide();
   }).catch(function(){
