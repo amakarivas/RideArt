@@ -24,7 +24,7 @@
             <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="modal" data-target="#request-ride">Request Ride</a>
+            <a class="nav-link pointer" data-toggle="modal" data-target="#request-ride">Request Ride</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#my-rides">My Rides</a>
@@ -35,6 +35,8 @@
         </ul>
       </div>
     </nav>
+
+    <!-- Loader -->
     <div id="loading">
       <div id="loader">Loading...</div>
     </div>
@@ -42,29 +44,38 @@
       <div class="text-center mt-5 pt-5">
         <h1>Welcome to RideArt</h1>
       </div>
+
+      <!-- Search Rides -->
+      <div>
+        <div class="w-75">
+          <form id="search-form" class="form-inline text-center">
+            <input type="text" class="form-control mb-2 mr-sm-2" id="ride-id" placeholder="Search Ride [Ride Id]">
+            <button type="submit" id="search-ride" class="btn btn-dark mb-2">Search</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- User Rides -->
       <div id="my-rides" class="my-4">
         <h3 class="text-center">My Rides</h3>
         <div id="my-ride-dom"></div>
       </div>
+
+      <!-- Admin Panel -->
       <div id="statistics" class="my-4">
-        <div>
-          <h3>Search Ride</h3>
-          <div class="w-75">
-            <form id="search-form" class="form-inline text-center">
-              <input type="text" class="form-control mb-2 mr-sm-2" id="ride-id">
-              <button type="submit" id="search-ride" class="btn btn-dark mb-2">Search</button>
-            </form>
-          </div>
-        </div>
         <div>
           <h3>Admin Statistics</h3>
           <div id="rides-dom"></div>
         </div>
       </div>
     </div>
+
+    <!-- Footer -->
     <div class="py-3 text-center bg-dark">
       <p class="text-white">&copy; 2020 RideArt</p>
     </div>
+
+    <!-- Search Modal -->
     <div class="modal" id="search-modal">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -78,6 +89,8 @@
         </div>
       </div>
     </div>
+
+    <!-- Request Ride Modal -->
     <div class="modal" id="request-ride">
       <div class="modal-dialog">
         <div class="modal-content">
